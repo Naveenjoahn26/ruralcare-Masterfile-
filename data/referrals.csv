@@ -1,0 +1,5 @@
+referral_id,patient_id,phc_id,severity,required_department,required_test,selected_hospital_id,appointment_slot_id,referral_status,created_date
+REF001,PAT001,PHC001,MEDIUM,Cardiology,ECG,H001,S003,APPOINTMENT_BOOKED,2026-09-04
+REF002,PAT002,PHC002,MEDIUM,Orthopedics,X-Ray,,,REFERRAL_CREATED,2026-09-04
+REF003,PAT003,PHC003,EMERGENCY,General Medicine,ECG,H002,,EMERGENCY_TRANSFER,2026-09-04
+REF004,PAT004,PHC004,MEDIUM,General Medicine,Blood Test,,,HOSPITAL_SELECTION_PENDING,2026-09-04

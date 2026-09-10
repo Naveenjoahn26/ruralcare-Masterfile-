@@ -1,0 +1,26 @@
+department_id,hospital_id,department_name,available
+DEP001,H001,General Medicine,YES
+DEP002,H001,Cardiology,YES
+DEP003,H001,Orthopedics,YES
+DEP004,H002,General Medicine,YES
+DEP005,H002,Cardiology,YES
+DEP006,H002,Neurology,YES
+DEP007,H002,Orthopedics,YES
+DEP008,H003,General Medicine,YES
+DEP009,H003,Orthopedics,YES
+DEP010,H004,General Medicine,YES
+DEP011,H004,Orthopedics,YES
+DEP012,H005,General Medicine,YES
+DEP013,H005,Cardiology,YES
+DEP014,H006,General Medicine,YES
+DEP015,H006,Orthopedics,YES
+DEP016,H007,General Medicine,YES
+DEP017,H007,Cardiology,YES
+DEP018,H007,Neurology,YES
+DEP019,H007,Orthopedics,YES
+DEP020,H008,General Medicine,YES
+DEP021,H008,Orthopedics,YES
+DEP022,H009,General Medicine,YES
+DEP023,H009,Cardiology,YES
+DEP024,H010,General Medicine,YES
+DEP025,H010,Orthopedics,YES

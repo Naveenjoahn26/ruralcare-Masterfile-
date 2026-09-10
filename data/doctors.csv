@@ -1,0 +1,26 @@
+doctor_id,hospital_id,department_id,doctor_name,specialization,status
+DOC001,H001,DEP001,Dr. Arun Kumar,General Physician,AVAILABLE
+DOC002,H001,DEP002,Dr. Meena Ravi,Cardiologist,AVAILABLE
+DOC003,H001,DEP003,Dr. Suresh Babu,Orthopedic Specialist,AVAILABLE
+DOC004,H002,DEP004,Dr. Priya Nair,General Physician,AVAILABLE
+DOC005,H002,DEP005,Dr. Karthik Raj,Cardiologist,AVAILABLE
+DOC006,H002,DEP006,Dr. Divya Menon,Neurologist,AVAILABLE
+DOC007,H002,DEP007,Dr. Naveen Kumar,Orthopedic Specialist,AVAILABLE
+DOC008,H003,DEP008,Dr. Kavitha S,General Physician,AVAILABLE
+DOC009,H003,DEP009,Dr. Hari Prasad,Orthopedic Specialist,AVAILABLE
+DOC010,H004,DEP010,Dr. Ramesh V,General Physician,AVAILABLE
+DOC011,H004,DEP011,Dr. Anitha M,Orthopedic Specialist,AVAILABLE
+DOC012,H005,DEP012,Dr. Bala Murugan,General Physician,AVAILABLE
+DOC013,H005,DEP013,Dr. Shalini P,Cardiologist,AVAILABLE
+DOC014,H006,DEP014,Dr. Mohan Das,General Physician,AVAILABLE
+DOC015,H006,DEP015,Dr. Lakshmi R,Orthopedic Specialist,AVAILABLE
+DOC016,H007,DEP016,Dr. Joseph Thomas,General Physician,AVAILABLE
+DOC017,H007,DEP017,Dr. Anjali Krishnan,Cardiologist,AVAILABLE
+DOC018,H007,DEP018,Dr. Rahul Menon,Neurologist,AVAILABLE
+DOC019,H007,DEP019,Dr. Vijay Anand,Orthopedic Specialist,AVAILABLE
+DOC020,H008,DEP020,Dr. Geetha K,General Physician,AVAILABLE
+DOC021,H008,DEP021,Dr. Prakash R,Orthopedic Specialist,AVAILABLE
+DOC022,H009,DEP022,Dr. Nithya S,General Physician,AVAILABLE
+DOC023,H009,DEP023,Dr. Senthil Kumar,Cardiologist,AVAILABLE
+DOC024,H010,DEP024,Dr. Murali K,General Physician,AVAILABLE
+DOC025,H010,DEP025,Dr. Rekha P,Orthopedic Specialist,AVAILABLE

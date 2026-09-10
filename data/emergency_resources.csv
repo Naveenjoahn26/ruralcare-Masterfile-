@@ -1,0 +1,11 @@
+hospital_id,emergency_available,icu_available,oxygen_available,ambulance_available,emergency_beds,icu_beds_available,estimated_wait_minutes
+H001,YES,YES,YES,YES,8,2,15
+H002,YES,YES,YES,YES,15,4,10
+H003,YES,NO,YES,YES,3,1,20
+H004,YES,NO,YES,YES,4,1,25
+H005,YES,NO,YES,YES,3,1,20
+H006,YES,NO,YES,NO,2,0,30
+H007,YES,YES,YES,YES,20,6,12
+H008,YES,NO,YES,YES,4,1,22
+H009,YES,NO,YES,YES,5,1,18
+H010,YES,NO,YES,YES,3,1,25

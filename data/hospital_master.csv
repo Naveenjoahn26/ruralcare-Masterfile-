@@ -1,0 +1,11 @@
+hospital_id,hospital_name,district,state,latitude,longitude,hospital_type,emergency_service,contact_number,ambulance_number
+H001,Tiruppur District Government Hospital,Tiruppur,Tamil Nadu,11.1085,77.3411,District Hospital,YES,0421-2200001,0421-2200099
+H002,Government Medical College Hospital Tiruppur,Tiruppur,Tamil Nadu,11.117,77.352,Government Medical College Hospital,YES,0421-2200002,0421-2200098
+H003,Government Hospital Avinashi,Tiruppur,Tamil Nadu,11.192,77.268,Government Hospital,YES,04296-270001,04296-270099
+H004,Government Hospital Palladam,Tiruppur,Tamil Nadu,10.991,77.288,Government Hospital,YES,04255-250001,04255-250099
+H005,Government Hospital Kangeyam,Tiruppur,Tamil Nadu,11.005,77.56,Government Hospital,YES,04257-220001,04257-220099
+H006,Government Hospital Dharapuram,Tiruppur,Tamil Nadu,10.737,77.517,Government Hospital,YES,04258-230001,04258-230099
+H007,Coimbatore Government Medical College Hospital,Coimbatore,Tamil Nadu,11.0183,76.9725,Government Medical College Hospital,YES,0422-2300001,0422-2300099
+H008,Government Hospital Sulur,Coimbatore,Tamil Nadu,11.024,77.125,Government Hospital,YES,04255-260001,04255-260099
+H009,Government Hospital Pollachi,Coimbatore,Tamil Nadu,10.66,77.008,Government Hospital,YES,04259-220001,04259-220099
+H010,Government Hospital Udumalpet,Tiruppur,Tamil Nadu,10.588,77.247,Government Hospital,YES,04252-230001,04252-230099
