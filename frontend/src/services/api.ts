@@ -22,7 +22,17 @@ const apiClient = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
-  withCredentials: true,
+});
+
+// Send the JWT access token with every protected API request
+apiClient.interceptors.request.use((config) => {
+  const token = localStorage.getItem("ruralcare_access_token");
+
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
+
+  return config;
 });
 // We rely on HttpOnly cookie-based JWT; the browser will send cookies automatically
 
@@ -50,20 +60,27 @@ apiClient.interceptors.response.use(
 
 export const api = {
   // Auth
-  login: async (payload: any): Promise<any> => {
-    const res = await apiClient.post("/auth/login", payload);
-    return res.data;
-  },
+login: async (payload: any): Promise<any> => {
+  const res = await apiClient.post("/auth/login", payload);
+
+  if (res.data?.access_token) {
+    localStorage.setItem(
+      "ruralcare_access_token",
+      res.data.access_token
+    );
+  }
+
+  return res.data;
+},
 
   getMe: async (): Promise<any> => {
     const res = await apiClient.get("/auth/me");
     return res.data;
   },
 
-  logout: async (): Promise<any> => {
-    const res = await apiClient.post("/auth/logout");
-    return res.data;
-  },
+logout: async (): Promise<void> => {
+  localStorage.removeItem("ruralcare_access_token");
+},
 
   // Dashboard
   getDashboardStats: async (): Promise<DashboardStats> => {
